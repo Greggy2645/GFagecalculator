@@ -6,7 +6,8 @@ def calculator():
     with open('responses.json') as f:
         data = json.load(f)
     #genereer random getal
-    num1 = random.randint(0, 5)
+    arrayLength = len(data)-1
+    num1 = random.randint(0, arrayLength)
     #wacht 1.5 seconden
     print("\r.", end='\r')
     time.sleep(0.5)
