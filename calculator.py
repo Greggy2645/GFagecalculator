@@ -1,4 +1,3 @@
-import time
 def calculator():
     import random
     eigen_leeftijd = int(input("wat is jouw eigen leeftijd?\n"))
